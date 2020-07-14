@@ -1,9 +1,9 @@
-.links{
+.link-pos{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
 }
-.links > a{
+.link-pos > a{
     padding: 10px;
     font-family: sans-serif;
     font-size: 15px;
@@ -11,7 +11,7 @@
     text-decoration: none;
 }
 
-.links > a:hover{
+.link-pos > a:hover{
     color:black;
 }
 body, html{
@@ -69,11 +69,58 @@ input{
     padding: 10px;
 }
 
-#advanced{
-    color: darkred;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14px;
-    border-bottom: solid 1px gray;
+.advanced{
     padding: 20px;
-    padding-left: 40px;;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.ad-h3{
+    color: darkred;
+    border-bottom: solid 1px gray;
+    padding: inherit;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-family: inherit;
+}
+
+.ad-p{
+    font-size: 16px;
+    padding-left: 40px;
+    font-family: inherit;
+
+}
+
+label{
+    font-size: 14px;
+    padding-left: 40px;
+    font-family: inherit;
+}
+
+#advanced-bar{
+    width: 60%;
+    display: grid;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    grid-template-columns: 40% auto;
+}
+
+#advanced-bar > input{
+    box-shadow: none;
+    border: solid 1px grey;
+    border-radius: 4px;
+    margin: 0px;
+}
+
+#advanced-bar > input:focus{
+    border-color: blue;
+    box-shadow: 3px 2px 4px 1px lightgrey;
+}
+
+#ad-sub{
+    color: white;
+    font-weight: bold;
+    background-color: blue;
+    box-shadow: none;
+    border-radius: 4px;
 }

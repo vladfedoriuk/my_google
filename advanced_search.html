@@ -2,19 +2,37 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css"> 
     </head>
     <body>
-        <div class="links">
+        <div class="link-pos">
             <a href="index.html"> <strong>Google Search</strong> </a>
         </div>
-        <div class = "links" id="img-link">
+        <div class = "link-pos" id="img-link">
             <a href="index.html">
                 <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google"> 
             </a>
         </div>
-        <div id="advanced">
-            <h2> Advanced Search </h2>
+        <div class="advanced">
+            <h3 class="ad-h3"> Advanced Search </h3>        
+            <p class="ad-p"> Find pages with... </p>
         </div>
+        <form action="https://google.com/search" class="advanced">
+            <div id="advanced-bar"> 
+                <label for="as_q"> all these words: </label>
+                <input type="text" name="as_q">
+                <label for="as_epq"> this exact word or phrase: </label>
+                <input type="text" name="as_epq">
+                <label for="as_oq"> any of these words: </label>
+                <input type="text" name="as_oq">
+                <label for="as_eq"> none of these words: </label>
+                <input type="text" name="as_eq">
+                <div></div>
+                <div class="link-pos">
+                    <input id="ad-sub" type="submit" value="Advanced Search">
+                </div>
+            </div>
+        </form> 
     </body>
 </html>
