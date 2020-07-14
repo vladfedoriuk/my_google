@@ -40,7 +40,7 @@ input{
     box-shadow: 2px 2px 5px grey;
 }
 #search-bar{
-    width: 500px;
+    width: 400px;
     height: 35px;
     background-position: 10px, 10px;
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/20px-Vector_search_icon.svg.png');
