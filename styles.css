@@ -24,7 +24,7 @@ body, html{
     display: grid;
 }
 
-#search > #data{
+#data{
     margin: auto;
     text-align: center;
 }
@@ -76,6 +76,7 @@ input, button{
     background-color: lightgray;
     flex-direction: row;
     padding: 10px;
+
 }
 
 .advanced{
@@ -139,7 +140,7 @@ label{
     border: solid 1px grey;
 }
 
-@media (max-width: 500px){
+@media (max-width: 800px){
     #search-bar{
         width: 300px;
     }
